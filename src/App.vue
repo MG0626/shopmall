@@ -1,7 +1,8 @@
 <template>
   <div id="app">
-    <h1>我是app组件</h1>
-    <router-view/>
+    <keep-alive>
+      <router-view/>
+    </keep-alive>
     <main-tab-bar/>
   </div>
 </template>

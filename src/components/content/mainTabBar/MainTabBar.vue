@@ -17,7 +17,6 @@
         <img
           slot="item_icon_active"
           src="~assets/img/tabbar/category_active.svg"
-          alt=""
         />
         <div slot="item_text">分类</div>
       </tab-bar-item>
@@ -50,16 +49,15 @@
 <script>
 //导入组件
 //懒加载
-const TabBar = () => import("components/common/tabbar/TabBar.vue");
-const TabBarItem = () => import("components/common/tabbar/TabBarItem");
+const TabBar = () => import("components/common/tabbar/TabBar.vue")
+const TabBarItem = () => import("components/common/tabbar/TabBarItem")
 
 export default {
   components: {
     TabBar,
-    TabBarItem,
+    TabBarItem
   }
-};
+}
 </script>
 
-<style>
-</style>
+<style></style>
